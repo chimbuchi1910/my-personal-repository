@@ -1,0 +1,803 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parent-div {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  font-family: sans-serif;
+  color: gray;
+  align-content: center;
+}
+
+.hero {
+  background-attachment: fixed;
+  background-color: blue;
+  height: 100vh;
+  background-image: url(photoworkjpg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  text-align: center;
+}
+
+.parent-div-home-shop {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin-left: auto;
+  margin-right: 4px;
+}
+
+.parent {
+  margin-top: 20px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.sharply {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: xx-large;
+}
+
+.i {
+  margin-left: auto;
+  margin-right: auto;
+  color: blue;
+}
+
+.We {
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-bottom: auto;
+  align-items: center;
+}
+
+.Word {
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-bottom: auto;
+  align-items: center;
+}
+
+.pp {
+  display: block;
+}
+
+.p {
+  color: white;
+  margin-top: 15px;
+  font-size: medium;
+}
+
+.box-1 {
+  width: 300px;
+  height: 70px;
+  color: white;
+  background-color: rgb(84, 3, 116);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: transparent;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-2 {
+  width: 300px;
+  height: 70px;
+  color: white;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Button {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 25px;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.box-1:hover {
+  width: 300px;
+  height: 70px;
+  color: white;
+  background-color: rgb(155, 88, 233);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: transparent;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.box-2:hover {
+  width: 300px;
+  height: 70px;
+  color: black;
+  background-color: whitesmoke;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+/* SEO section starts here */
+.section2 {
+  height: 50vh;
+}
+.sec2-parent {
+  margin-top: 50px;
+  display: flex;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.img2 {
+  width: 50%;
+}
+.seo {
+  width: 50%;
+}
+h1 {
+  font-size: xx-large;
+  font-weight: 200;
+}
+.lo {
+  width: 70%;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  color: rgb(112, 111, 111);
+  font-size: large;
+}
+.read {
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  background-color: rgba(238, 147, 241, 0.685);
+  width: 200px;
+  height: 50px;
+}
+.read:hover {
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  background-color: rgb(206, 75, 211);
+  width: 200px;
+  height: 50px;
+}
+/* SEO section ends here */
+/* portfolio section starts here */
+.section3 {
+  height: 60vh;
+  background-color: whitesmoke;
+}
+.sec3-parent {
+  padding-top: 50px;
+  display: flex;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.img3 {
+  width: 50%;
+}
+.portt {
+  margin-top: 50px;
+  width: 40%;
+}
+h1 {
+  font-size: xx-large;
+  font-weight: 200%;
+}
+.loren {
+  width: 70%;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  color: rgb(112, 111, 111);
+  font-size: large;
+}
+.see {
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  background-color: rgba(106, 145, 250, 0.685);
+  width: 200px;
+  height: 50px;
+}
+.see:hover {
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  background-color: rgb(58, 37, 177);
+  width: 200px;
+  height: 50px;
+}
+/* portfolio section ends here */
+/* parallax section starts here */
+.section4 {
+  background-image: url(photowork4.jpg);
+  background-attachment: fixed;
+  background-color: blue;
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec4-parent {
+  color: white;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.parallax {
+  font-size: 80px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-bottom: 30px;
+  text-align: center;
+  align-self: center;
+}
+.lore {
+  margin-top: 10px;
+  font-size: large;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+}
+.more {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  background-color: rgba(106, 145, 250, 0.685);
+  width: 220px;
+  height: 50px;
+}
+.more:hover {
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  background-color: rgb(58, 37, 177);
+  width: 220px;
+  height: 50px;
+}
+/* parallax section ends here */
+/* limitless section starts here */
+.section5 {
+  background-color: whitesmoke;
+  height: 100vh;
+}
+.sec5-parent {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.limit {
+  margin-top: 30px;
+}
+.lor {
+  font-size: large;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.down {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  background-color: rgba(106, 145, 250, 0.685);
+  width: 220px;
+  height: 50px;
+}
+.down:hover {
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  background-color: rgb(58, 37, 177);
+  width: 220px;
+  height: 50px;
+}
+.img5 {
+  margin-right: auto;
+  margin-left: auto;
+  width: 75%;
+  margin-top: 5px;
+}
+/* limitless section ends here */
+/* product section starts here */
+.section6 {
+  color: white;
+  background-color: black;
+  height: 115vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section6 h2 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 100;
+  padding-top: 70px;
+}
+.section6 p {
+  text-align: center;
+  font-weight: 100;
+  margin-top: 30px;
+}
+/* .product-section div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.product-section {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+} */
+
+.product-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.product-section div {
+  width: calc(100% / 4);
+  cursor: pointer;
+  position: relative;
+}
+.product-section div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.product-section div:hover .im1 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-section div:hover .im2 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-section div:hover .im3 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-section div:hover .im4 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-section div:hover .im5 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-section div:hover .im6 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-section div:hover .im7 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-section div:hover .im8 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-section div:hover .im9 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-section div:hover .im10 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.im1,
+.im2,
+.im3,
+.im4,
+.im5,
+.im6,
+.im7,
+.im8,
+.im9,
+.im10 {
+  color: white;
+  opacity: 0;
+}
+/* product section ends here */
+/* testimonial page starts here */
+.pi {
+  background-size: cover;
+  background-position: center;
+  background-image: url(images.jpg);
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: white;
+}
+.customer {
+  color: white;
+  background-attachment: fixed;
+  height: 50vh;
+  background-image: url(photoworkjpg.jpg);
+}
+.what {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 220%;
+  padding-top: 60px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.doe {
+  font-weight: 500;
+  font-size: 120%;
+  text-align: center;
+  margin-top: 20px;
+}
+.lore-cus {
+  margin-top: 10px;
+  font-size: large;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+/* testimonial page ends here */
+/* our clients page starts here */
+.cli {
+  height: 23vh;
+  align-items: center;
+}
+.clien {
+  margin-bottom: 20px;
+  margin-top: 55px;
+  text-align: center;
+}
+.logo {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+/* our clients page ends here */
+/* wordpress page starts here */
+.do {
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.word {
+  height: 25vh;
+  background-color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 250px;
+}
+.downl {
+  margin-top: 100px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  background-color: rgba(106, 145, 250, 0.685);
+  width: 220px;
+  height: 50px;
+}
+.downl:hover {
+  margin-top: 100px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  background-color: rgb(58, 37, 177);
+  width: 220px;
+  height: 50px;
+}
+/* wordpress page ends here */
+/* footer section starts here */
+.foot {
+  size-adjust: 40%;
+  background-color: black;
+  height: 20vh;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50%;
+}
+.fo {
+  margin-right: 40px;
+  display: flex;
+  gap: 20%;
+}
+span:hover {
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  color: rgb(72, 37, 224);
+}
+/* footer section ends here */
+@media (max-width: 834px) {
+  .section2 {
+    height: auto;
+  }
+  .foot {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+  }
+  .logo {
+    width: auto;
+    gap: 10px;
+  }
+  .cli {
+    width: auto;
+  }
+
+  .downl {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .downl:hover {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .do {
+    width: 90%;
+  }
+  .word {
+    gap: 5%;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+  .sec2-parent {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .img2 {
+    width: 100%;
+  }
+  .seo {
+    width: 100%;
+  }
+  .lo {
+    width: 100%;
+  }
+  .product-section div {
+    width: calc(100% / 1);
+  }
+  .parent {
+    display: none;
+  }
+  .section3 {
+    height: auto;
+  }
+  .sec3-parent {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .img3 {
+    width: 100%;
+  }
+  .portt {
+    width: 100%;
+  }
+  .loren {
+    width: 100%;
+  }
+  .section4 {
+    height: auto;
+  }
+  .sec4-parent {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .parallax {
+    width: 100%;
+  }
+  .lore {
+    width: 100%;
+  }
+  .section5 {
+    height: auto;
+  }
+  .sec5-parent {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .img5 {
+    width: 100%;
+  }
+  .limit {
+    width: 100%;
+  }
+  .lor {
+    width: 100%;
+  }
+  .section6 {
+    height: auto;
+  }
+  .product {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .item1 {
+    width: 100%;
+  }
+}
